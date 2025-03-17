@@ -1,141 +1,341 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1742107095000,
+    "generated": 1742193746000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson",
     "title": "USGS All Earthquakes, Past Hour",
     "status": 200,
     "api": "1.14.1",
-    "count": 3
+    "count": 8
   },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "mag": 1.09,
-        "place": "17 km ESE of Ocotillo, CA",
-        "time": 1742106487600,
-        "updated": 1742106757628,
+        "mag": 1.4,
+        "place": "10 km NW of Malibu, CA",
+        "time": 1742193272820,
+        "updated": 1742193523240,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41080680",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41080680.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41081512",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41081512.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 18,
+        "sig": 30,
         "net": "ci",
-        "code": "41080680",
-        "ids": ",ci41080680,",
+        "code": "41081512",
+        "ids": ",ci41081512,",
         "sources": ",ci,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 29,
-        "dmin": 0.07563,
-        "rms": 0.19,
-        "gap": 87,
+        "nst": 39,
+        "dmin": 0.06161,
+        "rms": 0.26,
+        "gap": 124,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.1 - 17 km ESE of Ocotillo, CA"
+        "title": "M 1.4 - 10 km NW of Malibu, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -115.8351667,
-          32.6655,
-          8.76
+          -118.897,
+          34.0651667,
+          11.65
         ]
       },
-      "id": "ci41080680"
+      "id": "ci41081512"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 1,
-        "place": "26 km SW of Ackerly, Texas",
-        "time": 1742106345048,
-        "updated": 1742106760267,
+        "mag": 0.78,
+        "place": "10 km NW of The Geysers, CA",
+        "time": 1742192958010,
+        "updated": 1742193052930,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2025ffry",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/tx2025ffry.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75149946",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75149946.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 15,
-        "net": "tx",
-        "code": "2025ffry",
-        "ids": ",tx2025ffry,",
-        "sources": ",tx,",
+        "sig": 9,
+        "net": "nc",
+        "code": "75149946",
+        "ids": ",nc75149946,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,",
+        "nst": 8,
+        "dmin": 0.01417,
+        "rms": 0.01,
+        "gap": 141,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.8 - 10 km NW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.853164672852,
+          38.8228340148926,
+          2.76999998092651
+        ]
+      },
+      "id": "nc75149946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.83,
+        "place": "7 km NNW of The Geysers, CA",
+        "time": 1742192824030,
+        "updated": 1742193020400,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75149941",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75149941.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 52,
+        "net": "nc",
+        "code": "75149941",
+        "ids": ",nc75149941,",
+        "sources": ",nc,",
+        "types": ",focal-mechanism,nearby-cities,origin,phase-data,",
+        "nst": 34,
+        "dmin": 0.004095,
+        "rms": 0.02,
+        "gap": 34,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 1.8 - 7 km NNW of The Geysers, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.804832458496,
+          38.8233337402344,
+          2.38000011444092
+        ]
+      },
+      "id": "nc75149941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.72,
+        "place": "8 km WNW of Cobb, CA",
+        "time": 1742192257330,
+        "updated": 1742193437426,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75149936",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75149936.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 8,
+        "net": "nc",
+        "code": "75149936",
+        "ids": ",nc75149936,",
+        "sources": ",nc,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 10,
+        "dmin": 0.01292,
+        "rms": 0.01,
+        "gap": 77,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 0.7 - 8 km WNW of Cobb, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.809829711914,
+          38.8363342285156,
+          1.67999994754791
+        ]
+      },
+      "id": "nc75149936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 0.75,
+        "place": "16 km W of Searles Valley, CA",
+        "time": 1742191958730,
+        "updated": 1742192166420,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41081504",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41081504.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 9,
+        "net": "ci",
+        "code": "41081504",
+        "ids": ",ci41081504,",
+        "sources": ",ci,",
+        "types": ",nearby-cities,origin,phase-data,scitech-link,",
+        "nst": 17,
+        "dmin": 0.1259,
+        "rms": 0.2,
+        "gap": 124,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 0.8 - 16 km W of Searles Valley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.5828333,
+          35.7575,
+          2.62
+        ]
+      },
+      "id": "ci41081504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 1.2,
+        "place": "5 km SW of Minto, Alaska",
+        "time": 1742191506866,
+        "updated": 1742191626458,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253hsg29q",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253hsg29q.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 22,
+        "net": "ak",
+        "code": "0253hsg29q",
+        "ids": ",ak0253hsg29q,",
+        "sources": ",ak,",
         "types": ",origin,phase-data,",
-        "nst": 26,
-        "dmin": 0,
-        "rms": 0.5,
-        "gap": 30,
+        "nst": null,
+        "dmin": null,
+        "rms": 0.87,
+        "gap": null,
         "magType": "ml",
         "type": "earthquake",
-        "title": "M 1.0 - 26 km SW of Ackerly, Texas"
+        "title": "M 1.2 - 5 km SW of Minto, Alaska"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -101.922,
-          32.366,
-          4.0264
+          -149.4337,
+          65.1109,
+          13.7
         ]
       },
-      "id": "tx2025ffry"
+      "id": "ak0253hsg29q"
     },
     {
       "type": "Feature",
       "properties": {
-        "mag": 0.86,
-        "place": "25 km NNW of Searles Valley, CA",
-        "time": 1742103852580,
-        "updated": 1742104083618,
+        "mag": 0.48,
+        "place": "10 km WNW of Cobb, CA",
+        "time": 1742190799120,
+        "updated": 1742192839360,
         "tz": null,
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41080664",
-        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41080664.geojson",
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75149931",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nc75149931.geojson",
         "felt": null,
         "cdi": null,
         "mmi": null,
         "alert": null,
         "status": "automatic",
         "tsunami": 0,
-        "sig": 11,
-        "net": "ci",
-        "code": "41080664",
-        "ids": ",ci41080664,",
-        "sources": ",ci,",
+        "sig": 4,
+        "net": "nc",
+        "code": "75149931",
+        "ids": ",nc75149931,",
+        "sources": ",nc,",
         "types": ",nearby-cities,origin,phase-data,scitech-link,",
-        "nst": 20,
-        "dmin": 0.1146,
-        "rms": 0.19,
-        "gap": 66,
-        "magType": "ml",
+        "nst": 8,
+        "dmin": 0.01134,
+        "rms": 0.02,
+        "gap": 219,
+        "magType": "md",
         "type": "earthquake",
-        "title": "M 0.9 - 25 km NNW of Searles Valley, CA"
+        "title": "M 0.5 - 10 km WNW of Cobb, CA"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.5126667,
-          35.9733333,
-          3.64
+          -122.83716583252,
+          38.8511657714844,
+          2.27999997138977
         ]
       },
-      "id": "ci41080664"
+      "id": "nc75149931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.2,
+        "place": "25 km NNW of Petersville, Alaska",
+        "time": 1742190653915,
+        "updated": 1742190777433,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0253hs4dhb",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0253hs4dhb.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 74,
+        "net": "ak",
+        "code": "0253hs4dhb",
+        "ids": ",ak0253hs4dhb,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 0.43,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.2 - 25 km NNW of Petersville, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.9705,
+          62.7023,
+          86.7
+        ]
+      },
+      "id": "ak0253hs4dhb"
     }
   ],
   "bbox": [
-    -117.5126667,
-    32.366,
-    3.64,
-    -101.922,
-    35.9733333,
-    8.76
+    -150.9705,
+    34.0651667,
+    1.6799999475479,
+    -117.5828333,
+    65.1109,
+    86.7
   ]
 }
